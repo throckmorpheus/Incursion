@@ -1,0 +1,38 @@
+{
+  "name": "incursion:desert_pyramid/base/entryway_frontage",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 14, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_1", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_1", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 6, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_2", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_3", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_3", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_4", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/flat_5", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/frontages/paving_1", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}

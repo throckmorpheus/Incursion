@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#c:pickaxes",
+    "#c:axes",
+    "#c:swords",
+    "#c:shovels",
+    "#c:hoes",
+    "#c:bows",
+    "#c:crossbows",
+    "minecraft:trident",
+    "minecraft:fishing_rod",
+    "minecraft:shears",
+    "minecraft:flint_and_steel",
+    "minecraft:carrot_on_a_stick",
+    "minecraft:warped_fungus_on_a_stick",
+    "#c:compasses",
+    "minecraft:elytra",
+    "#c:armor",
+    "#c:horse_armor",
+    "#c:shields",
+    "minecraft:book"
+  ]
+}

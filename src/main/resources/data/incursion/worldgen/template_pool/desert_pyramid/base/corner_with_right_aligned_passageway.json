@@ -1,0 +1,51 @@
+{
+  "name": "incursion:desert_pyramid/base/corner_with_right_aligned_passageway",
+  "fallback": "incursion:desert_pyramid/base/corner_with_ceiling",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "incursion:desert_pyramid/towers/corner/right_aligned/passageway_empty_with_outer_door_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "incursion:desert_pyramid/towers/corner/right_aligned/passageway_empty_with_outer_door_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "incursion:desert_pyramid/towers/corner/right_aligned/passageway_bell",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "incursion:desert_pyramid/towers/corner/right_aligned/passageway_campfire",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "incursion:desert_pyramid/towers/corner/right_aligned/passageway_treasure_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

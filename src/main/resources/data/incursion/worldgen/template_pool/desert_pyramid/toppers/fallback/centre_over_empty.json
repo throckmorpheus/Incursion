@@ -1,0 +1,114 @@
+{
+  "name": "incursion:desert_pyramid/toppers/fallback/centre_over_empty",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/hole_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/hole_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/hole_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/hole_top_undamaged",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/gold_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/gold_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/gold_top_undamaged",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/collapsed_1",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/collapsed_2",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/collapsed_1",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/collapsed_2",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/collapsed_1",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

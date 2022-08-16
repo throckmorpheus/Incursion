@@ -1,0 +1,61 @@
+{
+  "name": "incursion:desert_pyramid/base/edge_without_ceiling",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_empty_undamaged_no_ceiling",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_empty_undamaged_no_ceiling",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_empty_undamaged_no_ceiling",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_empty_undamaged_no_ceiling",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_pillars_undamaged_no_ceiling",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/base/edge_pillars_undamaged_no_ceiling",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

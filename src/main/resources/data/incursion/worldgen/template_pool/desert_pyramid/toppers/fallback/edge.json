@@ -1,0 +1,42 @@
+{
+  "name": "incursion:desert_pyramid/toppers/fallback/edge",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/edge_one_high",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/edge_one_high",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/edge_one_high",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "incursion:desert_pyramid/toppers/fallback/edge_one_high",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

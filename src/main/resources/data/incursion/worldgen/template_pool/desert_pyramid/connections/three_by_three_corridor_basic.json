@@ -1,0 +1,261 @@
+{
+  "name": "incursion:desert_pyramid/connections/three_by_three_corridor_basic",
+  "fallback": "incursion:desert_pyramid/connections/three_by_three_dead_end",
+  "elements": [
+    {
+      "weight": 150,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_short_segment_blank",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_short_segment_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/medium",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_short_segment_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_short_segment_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_turn_segment_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_turn_segment_blank",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_blank",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_blank",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_blank",
+        "processors": "incursion:block_replacements/weathering/sandstone/light",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_secret_above",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_decorated_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_decorated_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_decorated_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_t_intersection_decorated_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_decorated_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_decorated_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_with_statue_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_with_statue_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_4_way_intersection_with_lodestone",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_dead_end_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_dead_end_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/one_wide_corridor_to_three_wide_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/one_wide_door_to_three_wide_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_one_entrance_into_spiral_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_two_entrance_into_spiral_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_three_entrance_into_spiral_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_four_entrance_into_spiral_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+
+
+

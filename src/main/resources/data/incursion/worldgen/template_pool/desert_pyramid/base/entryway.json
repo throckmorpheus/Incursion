@@ -1,0 +1,90 @@
+{
+  "name": "incursion:desert_pyramid/base/entryway",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 50, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 20, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 80, "element": {
+      "location": "incursion:desert_pyramid/base/startpoint_no_entry_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 30, "element": {
+      "location": "incursion:desert_pyramid/base/startpoint_no_entry_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/startpoint_no_entry_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_no_slabs", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 6, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_no_slabs", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_no_slabs", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 30, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_no_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_no_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_no_ceiling", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_both", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_both", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_both", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 8, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_left", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_left", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 4, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_left", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 8, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_right", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_right", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 4, "element": {
+      "location": "incursion:desert_pyramid/base/entryway_ceiling_passageway_right", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}

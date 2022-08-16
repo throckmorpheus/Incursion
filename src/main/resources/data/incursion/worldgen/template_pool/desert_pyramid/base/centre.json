@@ -1,0 +1,47 @@
+{
+  "name": "incursion:desert_pyramid/base/centre_with_ceiling",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 5, "element": {
+        "location": "incursion:desert_pyramid/base/centre_crosshair_gold_no_trap_ceiling", "processors": "minecraft:empty",
+        "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/base/centre_circle_gold_no_trap_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/base/centre_no_pattern_no_trap_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_blue_no_trap_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_gold_drop_trap_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_gold_hidden_staircase_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 4, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_gold_no_trap_no_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_blue_no_trap_no_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_gold_drop_trap_no_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/base/centre_crosshair_gold_hidden_staircase_no_ceiling", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}
+

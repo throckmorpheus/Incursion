@@ -1,0 +1,46 @@
+{
+  "name": "incursion:desert_pyramid/connections/drop_chute_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 30, "element": {
+      "location": "incursion:desert_pyramid/rooms/treasure_rooms/drop_in_chests", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 20, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_chests_tnt_trapped_chests", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_chests_tnt_floor", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 25, "element": {
+      "location": "incursion:desert_pyramid/rooms/treasure_rooms/drop_in_gold", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 25, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_gold_tnt_below", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_gold_tnt_below", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_lava", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/rooms/trap_rooms/drop_in_lava_netherite_block", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_in_4_way_intersection_three_wide_doorways_with_target", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_in_4_way_intersection_one_wide_doorways", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}

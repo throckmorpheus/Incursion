@@ -1,0 +1,66 @@
+{
+  "name": "incursion:desert_pyramid/connections/spiral_staircase",
+  "fallback": "incursion:desert_pyramid/traps/drop_trap",
+  "elements": [
+    { "weight": 35, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_tiny", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_tiny", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_massive_three_exits", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_massive_three_exits", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_massive_four_exits", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_large_out", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 17, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_large_out", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 25, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_one_out", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 25, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_three_out_multi_level", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_three_out_multi_level", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 20, "element": {
+      "location": "incursion:desert_pyramid/corridors/staircases/spiral_medium_two_out", "processors": "minecraft:empty",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 4, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/big", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 4, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/medium", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/medium", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 1, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/tiny", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}

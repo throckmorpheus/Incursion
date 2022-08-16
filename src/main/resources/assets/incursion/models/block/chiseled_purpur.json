@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "incursion:block/chiseled_purpur_top",
+    "side": "incursion:block/chiseled_purpur_side"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "incursion:desert_pyramid/connections/one_wide_doorway",
+  "fallback": "incursion:desert_pyramid/connections/one_wide_dead_end",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/one_wide_door_to_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/one_wide_door_to_two_wide_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/one_wide_door_to_three_wide_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

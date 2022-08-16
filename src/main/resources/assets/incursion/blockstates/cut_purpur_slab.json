@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "incursion:block/cut_purpur_slab"
+    },
+    "type=double": {
+      "model": "incursion:block/cut_purpur_slab_double"
+    },
+    "type=top": {
+      "model": "incursion:block/cut_purpur_slab_top"
+    }
+  }
+}

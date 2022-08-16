@@ -1,0 +1,24 @@
+{
+  "name": "incursion:desert_pyramid/connections/three_by_three_dead_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_dead_end_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "incursion:desert_pyramid/corridors/basic/three_wide_dead_end_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

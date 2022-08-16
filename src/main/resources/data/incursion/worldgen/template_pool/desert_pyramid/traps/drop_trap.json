@@ -1,0 +1,38 @@
+{
+  "name": "incursion:desert_pyramid/traps/drop_trap",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/massive", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/massive", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/big", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 15, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/big", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 10, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/medium", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 5, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/medium", "processors": "incursion:block_replacements/weathering/sandstone/medium",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 2, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/tiny", "processors": "incursion:block_replacements/weathering/sandstone/light",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    },
+    { "weight": 3, "element": {
+      "location": "incursion:desert_pyramid/corridors/drop_chutes/tiny", "processors": "incursion:block_replacements/weathering/sandstone/heavy",
+      "projection": "rigid", "element_type": "minecraft:single_pool_element"}
+    }
+  ]
+}
